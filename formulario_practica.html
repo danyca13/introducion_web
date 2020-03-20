@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Practica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <form action="/introducion_web/guardado.html" method="POST" action="" class="form">
+            <div class="form-header">
+                <h1 class="form-title">F<samp>ormulario Practica</samp></h1>
+            </div>
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" id="name" class="form-input" placeholder="Escribe tu nombre">
+
+            <label for="email" class="form-label">Email:</label>
+            <input type="text" id="email" class="form-input" placeholder="Escribe tu email">
+
+            <label for="password" class="form-control">Password:</label>
+            <input type="text" id="password" class="form-input" SIZE="9" MAXLENGTH="9" placeholder="Escribe tu password">
+
+            <label for="adress" class="form-label">Adress:</label>
+            <input type="text" id="adress" class="form-input" placeholder="1234 Main St" required>
+
+            <label for="adress2" class="form-label">Adress2:</label>
+            <input type="text" id="adress2" class="form-input" placeholder="Apartament, Studio, or Floor" required>
+
+            <label for="city" class="form-label">Cyti:</label>
+            <input type="text" id="city" class="form-input" required>
+
+            <label for="state" class="form-label">State:</label>
+            <select name="state" id="state" class="form-input" required>
+            <option value="jalisco">Jalisco</option>
+            <option value="chiapas">Chiapas</option>
+            <option value="michoacan">Michoacán</option>
+            <option value="sinaloa">Sinaloa</option>
+            <option value="estado de mexico">Estado de Mexico</option>
+            <option value="yucatan">Yucatán</option>
+            </select>
+
+
+            <label for="zip" class="form-label">Zip:</label>
+            <input type="text" id="zip" class="form-input" required>
+
+            <label for="checkbox " class="form-label">Selecina una</label><br>
+
+            <label for="medico " class="form-label">Médico</label>
+            <input type="checkbox" name="medico" id="medico" value="medico"><br>
+
+            <label for="medico " class="form-label">Programador</label>
+            <input type="checkbox" name="programador" CHECKED>
+
+            <label for="medico " class="form-label">Abogado</label>
+            <input type="checkbox" name="abogado">
+
+            <label for="medico " class="form-label">Ingeniero</label>
+            <input type="checkbox" name="ingeniero"><br><br>
+
+            <button type="button" class="btn" onclick="alert('Formulario hecho correctamente!')">Da clic!</button><br>
+            <br>
+
+            <input type="submit" class="btn-submit" value="Sign In">
+
+
+        </form>
+
+    </div>
+
+</body>
+
+
+</html>
