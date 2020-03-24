@@ -1,5 +1,8 @@
 body {
-    background-color: lightblue;
+    background: url(/introducion_web/multimedia/mortal.JPG);
+    -webkit-backdrop-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 h1 {
